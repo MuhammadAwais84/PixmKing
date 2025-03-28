@@ -1,0 +1,90 @@
+/* Hide menu on small screens */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -105%;
+        background: linear-gradient(#7A58FF, #CC80FF);
+        width: 250px;
+        height: 100vh;
+        padding-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        transition: right 0.4s ease-in-out; /* Smooth animation */
+    }
+
+    /* Active state - menu slides in */
+    .nav-links.active {
+        right: 0;
+    }
+
+    /* Navigation links styling */
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .nav-links li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        font-family: "Pristina", sans-serif;
+        transition: color 0.3s ease-in-out;
+    }
+
+    /* Close button */
+    #close-btn {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Hamburger button */
+    .hamburger {
+        display: block;
+        color: white;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 456px){
+    .cta-btn{
+        display: none;
+    }
+    .item{
+        width: 15rem;
+        height: 25rem;
+        border-bottom-left-radius: 20rem;
+        border-bottom-right-radius:20rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    .pic{
+        width: 12rem;
+        height:15rem;
+        background-color: white;
+        border-radius: 1rem;
+    }
+    
+    footer h2{
+        font-size: medium;
+    }
+
+}
+
