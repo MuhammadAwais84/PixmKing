@@ -30,7 +30,7 @@ body, html {
 
 /* Logo */
 .logo{
-    background-color: red;
+    background-color: white;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
     display: flex;
