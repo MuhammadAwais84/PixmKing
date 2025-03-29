@@ -55,6 +55,78 @@
         font-size: 3rem;
         cursor: pointer;
     }
+
+
+
+
+
+
+
+
+
+
+    .bar{
+        width: 3rem;
+        height: 0.1rem;
+        border-radius: 1rem;
+    }
+    .contact{
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+    .contact .head{
+        font-weight: 900;
+        gap: 0.5rem;
+        font-size: 1.3rem;
+    }
+    
+    .head h1{
+        font-weight: 900;
+    }
+    .contact .tem{
+        gap: 0.5rem;
+    }
+    
+    label{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    
+    input{
+       border-bottom: 0.1rem solid #7147D6;
+       border-radius:0.1rem ;
+       width: 15rem;
+    }
+    input:focus{
+        border-bottom: 0.1rem solid #7147D6;} 
+
+
+    .msg textarea{
+        border: 1px solid #7147D6;
+        width: 15rem;
+    }
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
